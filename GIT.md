@@ -19,7 +19,7 @@
  - git commit -m "first commit"
  - git commit -a -m"commit"(有提交历史)
 
-## Remote Repository
+## IV Remote Repository
  - git remote add origin http://github.com/BurgessH/2018List(远程仓库和本地仓库建立联系)
  - git push origin master(将本地的提交推送到远程仓库)  
    - (error: failed to push some refs to远程仓库中的README.md文件不在本地的目录中) 
