@@ -24,4 +24,6 @@
  - git push origin master(将本地的提交推送到远程仓库)  
    - (error: failed to push some refs to远程仓库中的README.md文件不在本地的目录中) 
    - (git pull --rebase origin master)
- - git pull()
+ - git pull origin master
+ - git clone https://github.com/BurgessH/2018List
+ 
