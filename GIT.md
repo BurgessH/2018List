@@ -26,4 +26,6 @@
    - (git pull --rebase origin master)
  - git pull origin master
  - git clone https://github.com/BurgessH/2018List
- 
+  - git commit -a -m
+  - git push
+  - install Nodejs  cmd: node-v  npm install git-it -g  git-it
