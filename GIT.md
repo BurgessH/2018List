@@ -33,3 +33,5 @@
 ### 生成RSA秘钥对
  - ssh-Keygen -t rsa -C "2042877026@qq.com"
  - ssh key配置到Github;
+ - 登录github-> Settings-> SSH and GPG Keys-> New SSH key添加
+ - ssh -T git@github.com
