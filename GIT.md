@@ -43,7 +43,11 @@
   - 忽略文件（.gitignore）
     - /tem(零时文件)
     - git check-ignore -v .project
+
 ### 别名和缓存凭证
   - git log
   - git log --oneline
-
+  - git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  
+  - git config --global alias.cm commit
+  - git config --global credential.helper wincred
