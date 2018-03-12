@@ -29,10 +29,21 @@
   - git commit -a -m
   - git push
   - install Nodejs  cmd: node-v  npm install git-it -g  git-it
-  
+
+
 ## V 访问协议  
 ### 生成RSA秘钥对
  - ssh-Keygen -t rsa -C "2042877026@qq.com"
  - ssh key配置到Github;
  - 登录github-> Settings-> SSH and GPG Keys-> New SSH key添加
  - ssh -T git@github.com
+
+## 第三季
+### .gitignore和换行符:github.com/github/gitignore
+  - 忽略文件（.gitignore）
+    - /tem(零时文件)
+    - git check-ignore -v .project
+### 别名和缓存凭证
+  - git log
+  - git log --oneline
+
