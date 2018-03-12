@@ -48,6 +48,5 @@
   - git log
   - git log --oneline
   - git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  
   - git config --global alias.cm commit
-  - git config --global credential.helper wincred
+  - git config --global credential.helper wincred(每次推送都要输入用户名和Password)
