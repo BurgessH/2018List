@@ -44,9 +44,23 @@
     - /tem(零时文件)
     - git check-ignore -v .project
 
-### 别名和缓存凭证
+### 第三节别名和缓存凭证
   - git log
   - git log --oneline
   - git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
   - git config --global alias.cm commit
   - git config --global credential.helper wincred(每次推送都要输入用户名和Password)
+
+### 第四节GIT协议：
+  - 本地协议：
+  - Git协议：git clone git://server_ip/test.git
+  - HTTP协议:git remote add arigin https://
+  - SSH协议:git clone git@github.com:BurgessH/2018List.git
+    - ssh-Keygen -t rsa -C "2042877026@qq.com"
+
+### 第五节GIT新命令操作
+  - git命令信息
+  - git help -a(查看全部git命令)
+  - git blame(查看文件历史)
+  - git clean -f(真正的删除)（-f删除.gitconfig中忽略的文件）
+
