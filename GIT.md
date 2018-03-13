@@ -59,8 +59,18 @@
     - ssh-Keygen -t rsa -C "2042877026@qq.com"
 
 ### 第五节GIT新命令操作
-  - git命令信息
+  - git 命令信息
   - git help -a(查看全部git命令)
-  - git blame(查看文件历史)
-  - git clean -f(真正的删除)（-f删除.gitconfig中忽略的文件）
+  - git blame README.md(查看文件历史)
+  - git clean -n/显示；-f(真正的删除)（-f删除.gitconfig中忽略的文件）
+  - git add -p(一个文件多个提交)
 
+ ### 第六节标签操作
+   - git tag -d (删除标签)
+   - git tag v0.1 0866684
+   - git show v0.1
+   - git tag foo -m "message"
+
+ ### git分支操作
+   - 分支介绍
+   - 分支命令
