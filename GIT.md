@@ -73,5 +73,13 @@
 
  ### git分支操作
    - 分支介绍/操作
-     - git branch iss53
+     - git branch iss53(创建一个分支)
+     - git check out iss53(切换到iss53分支)
+       - touch b 
+     - git co mster
+     - git branch hotfix
+     - git merge hotfix(切换到master上合并)
+     - git branch - hotfix(删除分支)
+     
    - 分支命令:https://zhuanlan.zhihu.com/p/29362567
+   - 
