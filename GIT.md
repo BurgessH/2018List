@@ -73,13 +73,22 @@
 
  ### git分支操作
    - 分支介绍/操作
-     - git branch iss53(创建一个分支)
-     - git check out iss53(切换到iss53分支)
+     - git branch -v
+     - git branch iss53(创建一个新的分支)
+     - git checkout iss53(切换到iss53分支)
        - touch b 
-     - git co mster
+     - git checkout mster
      - git branch hotfix
-     - git merge hotfix(切换到master上合并)
-     - git branch - hotfix(删除分支)
+     - git merge hotfix(master上合并分支)
+     - git branch -d hotfix(删除分支)
      
    - 分支命令:https://zhuanlan.zhihu.com/p/29362567
-   - 
+
+ ### 分支版本冲突解决
+    - 在不同分支上，修改同一个文件；
+
+    - 不同的人，修改了同一个文件；
+
+    - 不同的仓库，修改了同一个文件；
+    
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;42;40m\]\u\[\033[00;00;40m\]@\[\033[01;35;40m\]\h\[\033[00;31;40m\]:\[\033[00;00;40m\]\w \[\033[01;32;40m\]\$ \[\033[01;36;40m\]'
