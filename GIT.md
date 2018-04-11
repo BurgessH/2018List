@@ -85,7 +85,12 @@
    
   ## 第四季  
   ## 团队协作工作流--集中式工作流01  
-    -  center repository(中央) 
-    -  
+      -  center repository(中央) 
+      -  添加协作人员
+      -  分别克隆仓库
+      - 冲突解决：01提交文件a至远程仓库;02添加文件后提交失败；这是拽pull下来后再重新push(三方合并)；
+      - git pull --rebase
+      - git push
+      
 
    
