@@ -73,8 +73,12 @@
 
  ### git分支操作
    - 分支介绍/操作
+<<<<<<< HEAD
      - git branch -v
      - git branch iss53(创建一个新的分支)
+=======
+     - git branch iss53(创建一个分支)
+>>>>>>> aaf7d195d14de67ee143cca26fd1c47886b0ced6
      - git checkout iss53(切换到iss53分支)
        - touch b 
      - git checkout mster
@@ -92,3 +96,18 @@
     - 不同的仓库，修改了同一个文件；
     
     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;42;40m\]\u\[\033[00;00;40m\]@\[\033[01;35;40m\]\h\[\033[00;31;40m\]:\[\033[00;00;40m\]\w \[\033[01;32;40m\]\$ \[\033[01;36;40m\]'
+
+     - git merge hotfix(切换到master上合并)
+     - git branch -d hotfix(删除分支)
+     
+   - 分支命令:https://zhuanlan.zhihu.com/p/29362567
+   
+  ## 第四季  
+  ## 团队协作工作流--集中式工作流01  
+      -  center repository(中央) 
+      -  添加协作人员
+      -  分别克隆仓库
+      - 冲突解决：01提交文件a至远程仓库;02添加文件后提交失败；这是拽pull下来后再重新push(三方合并)；删除边界线两个修改都保留
+      - git pull --rebase
+      - git push
+      
