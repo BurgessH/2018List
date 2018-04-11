@@ -86,15 +86,12 @@
    - 分支命令:https://zhuanlan.zhihu.com/p/29362567
 
  ### 分支版本冲突解决
-    - 在不同分支上，修改同一个文件；
-
-    - 不同的人，修改了同一个文件；
-
-    - 不同的仓库，修改了同一个文件；
-     - git merge hotfix(切换到master上合并)
-     - git branch -d hotfix(删除分支)
-     
-   - 分支命令:https://zhuanlan.zhihu.com/p/29362567
+  - 在不同分支上，修改同一个文件；
+  - 不同的人，修改了同一个文件；
+  - 不同的仓库，修改了同一个文件；
+  - git merge hotfix(切换到master上合并)
+  - git branch -d hotfix(删除分支)   
+  - 分支命令:https://zhuanlan.zhihu.com/p/29362567
    
 ## 第四季  
 ### 团队协作工作流-集中式工作流01  
