@@ -73,12 +73,9 @@
 
  ### git分支操作
    - 分支介绍/操作
-<<<<<<< HEAD
      - git branch -v
      - git branch iss53(创建一个新的分支)
-=======
      - git branch iss53(创建一个分支)
->>>>>>> aaf7d195d14de67ee143cca26fd1c47886b0ced6
      - git checkout iss53(切换到iss53分支)
        - touch b 
      - git checkout mster
