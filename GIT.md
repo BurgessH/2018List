@@ -99,9 +99,12 @@
   - 添加协作人员  
   - 分别克隆仓库  
   - 冲突解决：01提交文件a至远程仓库;02添加文件后提交失败；这是拽pull下来后再重新push(三方合并)；删除边界线两个修改都保留  
-  - git pull --rebase  
-  - git push  
-### 02功能分支协作流（feature branch)   
-  - 
-  -  
+  - git pull --rebase(不会产生三方合并)  
+  - git push 
+### 02功能分支协作流（feature branch) 
+  - 所有的功能开发都是在功能开发上，各自的开发不会打乱master分支；
+  - git co -b feature
+  - git push origin feature
+  - git push -u origin feature
+  
 
