@@ -19,6 +19,5 @@
 //用端口进行连接
     ssh username@ip -p 50022
 
-
 //指定版本
     sudo apt-get install aptitude
