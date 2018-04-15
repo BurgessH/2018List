@@ -21,6 +21,7 @@
 
 //指定版本
     sudo apt-get install aptitude
+    
 # Ubuntu server:
   ## https://my.vultr.com (server addr)  
   ## 0.install pptpd (server app)  
@@ -50,3 +51,15 @@
     - iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
     
   ## 6.sudo /etc/init.d/pptpd restart
+  
+  ## ubuntu16.04 add network
+     - choose connection Type(PPTP)
+     - gateway: vpn ip
+     - user name: 
+     - password: 
+
+  ## adcanced:
+    - choose point-to-point encryption(MMPE)
+   
+        
+  
