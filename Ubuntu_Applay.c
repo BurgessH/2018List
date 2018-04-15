@@ -52,13 +52,13 @@
     
   ## 6.sudo /etc/init.d/pptpd restart
   
-  ## ubuntu16.04 add network
+  ## 7.ubuntu16.04 add network
      - choose connection Type(PPTP)
      - gateway: vpn ip
      - user name: 
      - password: 
 
-  ## adcanced:
+  ## 8.adcanced:
     - choose point-to-point encryption(MMPE)
    
         
