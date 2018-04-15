@@ -21,3 +21,32 @@
 
 //指定版本
     sudo apt-get install aptitude
+# Ubuntu server:
+  ## https://my.vultr.com (server addr)  
+  ## 0.install pptpd (server app)  
+    - sudo apt-get install pptpd 
+    
+  ## 1.修改 /etc/pptpd.conf
+    - sudo vi /etc/pptpd.conf
+    -find # TAG:localip,在后面添加以下2 lines:
+    - localip 192.168.0.1
+    - remoteip 192.168.0.234-238,192.168.0.245
+     
+  ## 2.修改文件 /etc/ppp/pptpd-options
+    - sudo vi /etc/ppp/pptpd-options
+    - 找到#ms-dns这行，去掉前面的#号，修改成google提供的DNS server或者其他的DNS：
+    - ms-dns 8.8.8.8
+    - ms-dns 8.8.4.4
+        
+  ## 3.修改文件/etc/ppp/chap-secrets, 按一行四列添加账号、服务器、密码和IP限制。
+    - user pptpd userpasswd *
+    
+  ## 4.修改文件/etc/sysctl.conf, 去掉这一行#net.ipv4.ip_forward=1的#号，开启iPv4 forward，然后运行命令：
+    - sudo sysctl -p
+    - 运行后显示net.ipv4.ip_forward=1，就表示修改生效了。
+   
+  ## 5.使用iptables建立一个NAT
+    - sudo apt-get install iptables
+    - iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
+    
+  ## 6.sudo /etc/init.d/pptpd restart
