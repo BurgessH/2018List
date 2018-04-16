@@ -104,9 +104,20 @@
   
 ### 02功能分支协作流（feature branch) 
   - 所有的功能开发都是在功能开发上，各自的开发不会打乱master分支；
-  - git co -b feature(本地新建一个分支touch a echo 11 >> a )
-    - git push origin feature
-  - git push -u origin feature
+  - git co -b feature(本地新建一个分支touch a echo 11 >> a)  
+    - git push origin feature()
+  - git push -u origin feature()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
