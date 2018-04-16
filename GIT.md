@@ -93,18 +93,21 @@
   - git branch -d hotfix(删除分支)   
   - 分支命令:https://zhuanlan.zhihu.com/p/29362567
    
-## 第四季  
-### 团队协作工作流-集中式工作流01  
+## 第四季 团队协作工作流
+### 集中式工作流01 
   - center repository(中央)  
   - 添加协作人员  
   - 分别克隆仓库  
   - 冲突解决：01提交文件a至远程仓库;02添加文件后提交失败；这是拽pull下来后再重新push(三方合并)；删除边界线两个修改都保留  
   - git pull --rebase(不会产生三方合并)  
   - git push 
+  
 ### 02功能分支协作流（feature branch) 
   - 所有的功能开发都是在功能开发上，各自的开发不会打乱master分支；
-  - git co -b feature
-  - git push origin feature
+  - git co -b feature(本地新建一个分支touch a echo 11 >> a )
+    - git push origin feature
   - git push -u origin feature
+  
+  
   
 
