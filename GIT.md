@@ -113,10 +113,10 @@
   - 
 ### forking 工作流
   - Forking repository
-  - git clone https://github.com/BurgessH/GIT-operate
-  - git remote add upstream git@github.com:BurgessH/GIT-operate
-  - git pull upstream master
-    - git add
+  - git clone https://github.com/BurgessH/GIT-operate(本地仓库)
+  - git remote add upstream git@github.com:BurgessH/GIT-operate（关联远程仓库）
+  - git pull upstream master（拽下远程内容）
+    - git add
     - git status
     - git commit -m "commit message"
   - git push origin master  
