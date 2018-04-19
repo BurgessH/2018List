@@ -115,11 +115,11 @@
   - Forking repository  
   - git clone https://github.com/BurgessH/GIT-operate(本地仓库)  
   - git remote add upstream git@github.com:BurgessH/GIT-operate（关联远程仓库）  
-  - git pull upstream master（拽下远程内容）
-    - git add
-    - git status
-    - git commit -m "commit message"
-  - git push origin master  
+  - git pull upstream master（拽下远程内容）  
+    - git ad  
+    - git status  
+    - git commit -m "commit message"  
+  - git push origin master    
   - creat new pull request(确保已经检查自己的github仓库中的内容无误)
 
   
