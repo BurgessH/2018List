@@ -119,7 +119,7 @@
     - git add
     - git status
     - git commit -m "commit message"
-  - git push origin master
+  - git push origin master  
   - creat new pull request(确保已经检查自己的github仓库中的内容无误)
 
   
