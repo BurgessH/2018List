@@ -85,7 +85,7 @@
      
    - 分支命令:https://zhuanlan.zhihu.com/p/29362567
 
- ### 分支版本冲突解决
+ ### 分支版本冲突解决  
   - 在不同分支上，修改同一个文件；
   - 不同的人，修改了同一个文件；
   - 不同的仓库，修改了同一个文件；
@@ -125,11 +125,11 @@
   ### pull request 总结
   
  ## 第五季 stylish网站换肤  
-   - 工具使用  
-     - 开发者工具  
-     - stylish插件  
-     - styles.org  
-   - CSS基础  
+  - 工具使用  
+    - 开发者工具  
+    - stylish插件  
+    - styles.org  
+    - CSS基础  
  ## 第六季 how-to-markdown  
    - 
  ## 第七季 gitbook  
