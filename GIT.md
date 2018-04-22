@@ -125,16 +125,16 @@
   ### pull request 总结
   
  ## 第五季 stylish网站换肤  
-   - 工具使用
-     - 开发者工具
-     - stylish插件
-     - styles.org
-   - CSS基础
- ## 第六季 how-to-markdown
+   - 工具使用  
+     - 开发者工具  
+     - stylish插件  
+     - styles.org  
+   - CSS基础  
+ ## 第六季 how-to-markdown  
    - 
- ## 第七季 gitbook
+ ## 第七季 gitbook  
    - 
- ## 第八季 Jekyll静态工作站
+ ## 第八季 Jekyll静态工作站  
    - 
   
   
