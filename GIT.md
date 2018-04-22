@@ -120,11 +120,22 @@
     - git status  
     - git commit -m "commit message"  
   - git push origin master    
-  - creat new pull request(确保已经检查自己的github仓库中的内容无误)  
+  - creat new pull request(确保已经检查自己的github仓库中的内容无误) 
   
   ### pull request 总结
   
-
+ ## 第五季 stylish网站换肤  
+   - 工具使用
+     - 开发者工具
+     - stylish插件
+     - styles.org
+   - CSS基础
+ ## 第六季 how-to-markdown
+   - 
+ ## 第七季 gitbook
+   - 
+ ## 第八季 Jekyll静态工作站
+   - 
   
   
   
