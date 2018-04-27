@@ -109,7 +109,6 @@
   
 ### gitflow工作流
   - 
-  - 
 ### forking 工作流
   - Forking repository  
   - git clone https://github.com/BurgessH/GIT-operate(本地仓库)  
