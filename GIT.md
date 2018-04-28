@@ -128,10 +128,15 @@
     - stylish插件  
     - styles.org  
     - CSS基础  
-      - cascading style sheets 
- ## 第六季 how-to-markdown  
-   - 
- ## 第七季 gitbook  
+      - cascading style sheets ：
+      - 样式有三种存储方式：嵌入、内联、外联
+      
+ ## 第六季 how-to-markdown  
+   - 开源软件项目分类：
+     - wc -l xx.c(查看代码lines)
+     - grep -v ^$ entropy/entropy.c | wc -l(去掉空行)
+     
+ ## 第七季 gitbook   
    - 
  ## 第八季 Jekyll静态工作站  
    - 
